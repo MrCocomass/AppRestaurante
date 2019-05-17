@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFB8DA562B9793B409D0D48C2EDE183 /* Pods-AppRestaurante-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADC5A26A5A7B05459360546EE0F9825 /* Pods-AppRestaurante-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1720F211824D65867E240E82F271C1EB /* Pods-AppRestaurante-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B77660EAAA9AEA081CF2E98566F707 /* Pods-AppRestaurante-dummy.m */; };
+		258310D6C526926891B08D916A26F144 /* Pods-AppRestauranteUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CE9999341733A3EADE8CDCCB5D4CF0 /* Pods-AppRestauranteUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F3D63EFAE2B2C4E9811595D2281D23F /* Pods-AppRestauranteUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 421BC8EECCBD636D5B35AC7941BB35CE /* Pods-AppRestauranteUITests-dummy.m */; };
+		39A7CF3AC00730FDAF7F5A36DCF1877E /* Pods-AppRestauranteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 829D2427316EE26A89C3AF2E18C25E0F /* Pods-AppRestauranteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45E2E0ABF0519E430E475700D1E794C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		51B4F5EAB81CCDD231B0F1B4A9F17752 /* Pods-AppRestauranteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0849DDE314DF5592A0D559D1596442C /* Pods-AppRestauranteTests-dummy.m */; };
+		58746E44E1AE974C3241EF85B62D291D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		814E9063F1C596ECFE5065142A06DA57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F0061B668C224EA2AEF4FCDAA09E3C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B901140CA2AA94B6E50FA8C3B270B9DE;
+			remoteInfo = "Pods-AppRestaurante";
+		};
+		A25CE4773B1DECA800C640E9C1B7F7C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B901140CA2AA94B6E50FA8C3B270B9DE;
+			remoteInfo = "Pods-AppRestaurante";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CE9999341733A3EADE8CDCCB5D4CF0 /* Pods-AppRestauranteUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppRestauranteUITests-umbrella.h"; sourceTree = "<group>"; };
+		1885DDEB7347635A7269FA90B85F345D /* Pods-AppRestauranteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppRestauranteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1ADC5A26A5A7B05459360546EE0F9825 /* Pods-AppRestaurante-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppRestaurante-umbrella.h"; sourceTree = "<group>"; };
+		24A703BA8176612E0EB44DBF7A9B5C3B /* Pods-AppRestauranteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestauranteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C8877E285C2FFCA9B53B918F3C4B314 /* Pods-AppRestaurante-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestaurante-Info.plist"; sourceTree = "<group>"; };
+		313E45E6E9641A75A7441C290C717CA4 /* Pods-AppRestaurante-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppRestaurante-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3515506B88434BC5DB682622082DA701 /* Pods-AppRestauranteUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppRestauranteUITests.modulemap"; sourceTree = "<group>"; };
+		3D016BD785076798CA0680330D2DC69F /* Pods-AppRestaurante.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestaurante.debug.xcconfig"; sourceTree = "<group>"; };
+		3D205E935B86638FBD63E75DB0EA3002 /* Pods-AppRestauranteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppRestauranteTests.modulemap"; sourceTree = "<group>"; };
+		421BC8EECCBD636D5B35AC7941BB35CE /* Pods-AppRestauranteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppRestauranteUITests-dummy.m"; sourceTree = "<group>"; };
+		4D0A44A3255F60F0D34D9BA87A0C486B /* Pods-AppRestaurante.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestaurante.release.xcconfig"; sourceTree = "<group>"; };
+		5DEB8D233D9AA20354D0751E3D4873A1 /* Pods-AppRestauranteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestauranteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DF1B17F00151902BB78BF80D15A7CD2 /* Pods-AppRestaurante-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestaurante-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EF0DBA2234B2EC6C241891DBAC7EB80 /* Pods_AppRestauranteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppRestauranteUITests.framework; path = "Pods-AppRestauranteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAD3246D0977A540AB39D710653D707 /* Pods-AppRestauranteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestauranteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7975B8A4FE69BE15BDF672CB2718B2FE /* Pods-AppRestauranteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestauranteTests.release.xcconfig"; sourceTree = "<group>"; };
+		829D2427316EE26A89C3AF2E18C25E0F /* Pods-AppRestauranteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppRestauranteTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7E1BA9C7948C0A8E3155C2206D57754 /* Pods-AppRestauranteUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestauranteUITests-Info.plist"; sourceTree = "<group>"; };
+		B9668DC7A59E69EE9B4A7C7C36FDEEF1 /* Pods-AppRestauranteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppRestauranteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF84AE663C99A5B4A6177D0A47FCF02B /* Pods-AppRestauranteTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestauranteTests-Info.plist"; sourceTree = "<group>"; };
+		C0849DDE314DF5592A0D559D1596442C /* Pods-AppRestauranteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppRestauranteTests-dummy.m"; sourceTree = "<group>"; };
+		C1310143061FD1C2632E3D94BAA8C365 /* Pods-AppRestaurante.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppRestaurante.modulemap"; sourceTree = "<group>"; };
+		C8B77660EAAA9AEA081CF2E98566F707 /* Pods-AppRestaurante-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppRestaurante-dummy.m"; sourceTree = "<group>"; };
+		CD9D0E1F8D108B9EC7267D278F6735F1 /* Pods-AppRestauranteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestauranteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D48D1020701086B668CACB27D2C8578F /* Pods_AppRestaurante.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppRestaurante.framework; path = "Pods-AppRestaurante.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A81DAFD9FB608BB46AA75F76106894 /* Pods-AppRestauranteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestauranteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED54894C34DD3885C063D7D2A06E33E2 /* Pods_AppRestauranteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppRestauranteTests.framework; path = "Pods-AppRestauranteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAC77004C442941C713250AA95485B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E2E0ABF0519E430E475700D1E794C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F09332406C7B6F3BF5134EFBB339802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58746E44E1AE974C3241EF85B62D291D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05BC6834701353ED7B053769835049D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814E9063F1C596ECFE5065142A06DA57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A002AEA7FBA4632493E0727218222C /* Pods-AppRestaurante */ = {
+			isa = PBXGroup;
+			children = (
+				C1310143061FD1C2632E3D94BAA8C365 /* Pods-AppRestaurante.modulemap */,
+				313E45E6E9641A75A7441C290C717CA4 /* Pods-AppRestaurante-acknowledgements.markdown */,
+				5DF1B17F00151902BB78BF80D15A7CD2 /* Pods-AppRestaurante-acknowledgements.plist */,
+				C8B77660EAAA9AEA081CF2E98566F707 /* Pods-AppRestaurante-dummy.m */,
+				2C8877E285C2FFCA9B53B918F3C4B314 /* Pods-AppRestaurante-Info.plist */,
+				1ADC5A26A5A7B05459360546EE0F9825 /* Pods-AppRestaurante-umbrella.h */,
+				3D016BD785076798CA0680330D2DC69F /* Pods-AppRestaurante.debug.xcconfig */,
+				4D0A44A3255F60F0D34D9BA87A0C486B /* Pods-AppRestaurante.release.xcconfig */,
+			);
+			name = "Pods-AppRestaurante";
+			path = "Target Support Files/Pods-AppRestaurante";
+			sourceTree = "<group>";
+		};
+		13E889C9ED28D19697E335161AD3CB19 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A002AEA7FBA4632493E0727218222C /* Pods-AppRestaurante */,
+				75DB4CECAA6FE41BB09738A10F6D740E /* Pods-AppRestauranteTests */,
+				1862FA3A85940324210ADF0BD7605CCE /* Pods-AppRestauranteUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1862FA3A85940324210ADF0BD7605CCE /* Pods-AppRestauranteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3515506B88434BC5DB682622082DA701 /* Pods-AppRestauranteUITests.modulemap */,
+				B9668DC7A59E69EE9B4A7C7C36FDEEF1 /* Pods-AppRestauranteUITests-acknowledgements.markdown */,
+				E4A81DAFD9FB608BB46AA75F76106894 /* Pods-AppRestauranteUITests-acknowledgements.plist */,
+				421BC8EECCBD636D5B35AC7941BB35CE /* Pods-AppRestauranteUITests-dummy.m */,
+				B7E1BA9C7948C0A8E3155C2206D57754 /* Pods-AppRestauranteUITests-Info.plist */,
+				05CE9999341733A3EADE8CDCCB5D4CF0 /* Pods-AppRestauranteUITests-umbrella.h */,
+				CD9D0E1F8D108B9EC7267D278F6735F1 /* Pods-AppRestauranteUITests.debug.xcconfig */,
+				5DEB8D233D9AA20354D0751E3D4873A1 /* Pods-AppRestauranteUITests.release.xcconfig */,
+			);
+			name = "Pods-AppRestauranteUITests";
+			path = "Target Support Files/Pods-AppRestauranteUITests";
+			sourceTree = "<group>";
+		};
+		75DB4CECAA6FE41BB09738A10F6D740E /* Pods-AppRestauranteTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D205E935B86638FBD63E75DB0EA3002 /* Pods-AppRestauranteTests.modulemap */,
+				1885DDEB7347635A7269FA90B85F345D /* Pods-AppRestauranteTests-acknowledgements.markdown */,
+				24A703BA8176612E0EB44DBF7A9B5C3B /* Pods-AppRestauranteTests-acknowledgements.plist */,
+				C0849DDE314DF5592A0D559D1596442C /* Pods-AppRestauranteTests-dummy.m */,
+				BF84AE663C99A5B4A6177D0A47FCF02B /* Pods-AppRestauranteTests-Info.plist */,
+				829D2427316EE26A89C3AF2E18C25E0F /* Pods-AppRestauranteTests-umbrella.h */,
+				6BAD3246D0977A540AB39D710653D707 /* Pods-AppRestauranteTests.debug.xcconfig */,
+				7975B8A4FE69BE15BDF672CB2718B2FE /* Pods-AppRestauranteTests.release.xcconfig */,
+			);
+			name = "Pods-AppRestauranteTests";
+			path = "Target Support Files/Pods-AppRestauranteTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F7B206544AB441DA52C830847B88A4AF /* Products */,
+				13E889C9ED28D19697E335161AD3CB19 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7B206544AB441DA52C830847B88A4AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48D1020701086B668CACB27D2C8578F /* Pods_AppRestaurante.framework */,
+				ED54894C34DD3885C063D7D2A06E33E2 /* Pods_AppRestauranteTests.framework */,
+				5EF0DBA2234B2EC6C241891DBAC7EB80 /* Pods_AppRestauranteUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4518EA97E3A76E5EDC6B01A965E5A075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFB8DA562B9793B409D0D48C2EDE183 /* Pods-AppRestaurante-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A285C2E071ED3976966C099CC24AB194 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258310D6C526926891B08D916A26F144 /* Pods-AppRestauranteUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBD6938A3CE6230D5C42F2923F6FCFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A7CF3AC00730FDAF7F5A36DCF1877E /* Pods-AppRestauranteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B901140CA2AA94B6E50FA8C3B270B9DE /* Pods-AppRestaurante */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70FF1653398E66B054D640608682274 /* Build configuration list for PBXNativeTarget "Pods-AppRestaurante" */;
+			buildPhases = (
+				4518EA97E3A76E5EDC6B01A965E5A075 /* Headers */,
+				CC61E96C3E943C9B082936E4E16EDA41 /* Sources */,
+				4F09332406C7B6F3BF5134EFBB339802 /* Frameworks */,
+				BABC1EE521F75C30AE904BBD52943061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AppRestaurante";
+			productName = "Pods-AppRestaurante";
+			productReference = D48D1020701086B668CACB27D2C8578F /* Pods_AppRestaurante.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0918CDA2B07147926C051B8BA304F33 /* Pods-AppRestauranteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDFAA19E0779DB908DE653EB3C19FCD /* Build configuration list for PBXNativeTarget "Pods-AppRestauranteTests" */;
+			buildPhases = (
+				CFBD6938A3CE6230D5C42F2923F6FCFF /* Headers */,
+				C71F195F6F34DECA10DB11428EEA707A /* Sources */,
+				E05BC6834701353ED7B053769835049D /* Frameworks */,
+				DAD30D357B75E9867B9C42BB32F4CC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EC75099D2CABC97C3C7ACC1FC00145 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppRestauranteTests";
+			productName = "Pods-AppRestauranteTests";
+			productReference = ED54894C34DD3885C063D7D2A06E33E2 /* Pods_AppRestauranteTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9DD8057AA6ECDE65CC47BBD95E56962 /* Pods-AppRestauranteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E280F0C1D738FC70E72D8D26D92BF1A7 /* Build configuration list for PBXNativeTarget "Pods-AppRestauranteUITests" */;
+			buildPhases = (
+				A285C2E071ED3976966C099CC24AB194 /* Headers */,
+				0D5CF0C8CEDAB1D765EA3591BBDA0B55 /* Sources */,
+				1EAC77004C442941C713250AA95485B7 /* Frameworks */,
+				56152576D90F930BF45749099AC3CA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				716ED570C1CC8239F511C979B39812B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppRestauranteUITests";
+			productName = "Pods-AppRestauranteUITests";
+			productReference = 5EF0DBA2234B2EC6C241891DBAC7EB80 /* Pods_AppRestauranteUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F7B206544AB441DA52C830847B88A4AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B901140CA2AA94B6E50FA8C3B270B9DE /* Pods-AppRestaurante */,
+				C0918CDA2B07147926C051B8BA304F33 /* Pods-AppRestauranteTests */,
+				E9DD8057AA6ECDE65CC47BBD95E56962 /* Pods-AppRestauranteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56152576D90F930BF45749099AC3CA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABC1EE521F75C30AE904BBD52943061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD30D357B75E9867B9C42BB32F4CC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5CF0C8CEDAB1D765EA3591BBDA0B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3D63EFAE2B2C4E9811595D2281D23F /* Pods-AppRestauranteUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71F195F6F34DECA10DB11428EEA707A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B4F5EAB81CCDD231B0F1B4A9F17752 /* Pods-AppRestauranteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC61E96C3E943C9B082936E4E16EDA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1720F211824D65867E240E82F271C1EB /* Pods-AppRestaurante-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		716ED570C1CC8239F511C979B39812B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppRestaurante";
+			target = B901140CA2AA94B6E50FA8C3B270B9DE /* Pods-AppRestaurante */;
+			targetProxy = 7F0061B668C224EA2AEF4FCDAA09E3C9 /* PBXContainerItemProxy */;
+		};
+		C4EC75099D2CABC97C3C7ACC1FC00145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppRestaurante";
+			target = B901140CA2AA94B6E50FA8C3B270B9DE /* Pods-AppRestaurante */;
+			targetProxy = A25CE4773B1DECA800C640E9C1B7F7C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AEBAD5297662F6CB1301DD7A49DD433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9D0E1F8D108B9EC7267D278F6735F1 /* Pods-AppRestauranteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppRestauranteUITests/Pods-AppRestauranteUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppRestauranteUITests/Pods-AppRestauranteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10BACAA9C90F26FD57D3E31615A96C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEB8D233D9AA20354D0751E3D4873A1 /* Pods-AppRestauranteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppRestauranteUITests/Pods-AppRestauranteUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppRestauranteUITests/Pods-AppRestauranteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3A9E5207223454274A7B0D6C51B1AE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7975B8A4FE69BE15BDF672CB2718B2FE /* Pods-AppRestauranteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppRestauranteTests/Pods-AppRestauranteTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppRestauranteTests/Pods-AppRestauranteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CF4162E16081CEEF58567BDECD703D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0A44A3255F60F0D34D9BA87A0C486B /* Pods-AppRestaurante.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppRestaurante/Pods-AppRestaurante-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppRestaurante/Pods-AppRestaurante.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C63BEBF4BC941D804DF19AC4CD248CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAD3246D0977A540AB39D710653D707 /* Pods-AppRestauranteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppRestauranteTests/Pods-AppRestauranteTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppRestauranteTests/Pods-AppRestauranteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D97D13148EDDE4C7915F482CC8FCB084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D016BD785076798CA0680330D2DC69F /* Pods-AppRestaurante.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppRestaurante/Pods-AppRestaurante-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppRestaurante/Pods-AppRestaurante.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDFAA19E0779DB908DE653EB3C19FCD /* Build configuration list for PBXNativeTarget "Pods-AppRestauranteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63BEBF4BC941D804DF19AC4CD248CFE /* Debug */,
+				3A9E5207223454274A7B0D6C51B1AE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70FF1653398E66B054D640608682274 /* Build configuration list for PBXNativeTarget "Pods-AppRestaurante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97D13148EDDE4C7915F482CC8FCB084 /* Debug */,
+				3CF4162E16081CEEF58567BDECD703D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E280F0C1D738FC70E72D8D26D92BF1A7 /* Build configuration list for PBXNativeTarget "Pods-AppRestauranteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEBAD5297662F6CB1301DD7A49DD433 /* Debug */,
+				10BACAA9C90F26FD57D3E31615A96C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
