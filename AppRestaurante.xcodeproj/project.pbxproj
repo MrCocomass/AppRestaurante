@@ -13,6 +13,7 @@
 		821989A422564ECB009BC3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821989A222564ECB009BC3FD /* Main.storyboard */; };
 		821989A622564ECD009BC3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821989A522564ECD009BC3FD /* Assets.xcassets */; };
 		821989A922564ECD009BC3FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821989A722564ECD009BC3FD /* LaunchScreen.storyboard */; };
+		8261D14F229C15770004C470 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8261D14E229C15770004C470 /* LoginController.swift */; };
 		84E0BF8B53CF14DF4370293E /* Pods_AppRestaurante.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FBC5FD5A28D6BEDA687766 /* Pods_AppRestaurante.framework */; };
 		FCFA9093C48802FD751F94C5 /* Pods_AppRestauranteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6903D4BE621203C97F1A9DCE /* Pods_AppRestauranteUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		821989AA22564ECD009BC3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		821989AF22564ECD009BC3FD /* AppRestauranteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppRestauranteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		821989BA22564ECE009BC3FD /* AppRestauranteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppRestauranteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8261D14E229C15770004C470 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		842BEF20670BDEB9ABCC7A1C /* Pods-AppRestaurante.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRestaurante.release.xcconfig"; path = "Target Support Files/Pods-AppRestaurante/Pods-AppRestaurante.release.xcconfig"; sourceTree = "<group>"; };
 		8A5A08CECE8BC6F0C8D95468 /* Pods_AppRestauranteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRestauranteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58D0B2114521D9490DD9E80 /* Pods-AppRestauranteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRestauranteTests.debug.xcconfig"; path = "Target Support Files/Pods-AppRestauranteTests/Pods-AppRestauranteTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				821989A522564ECD009BC3FD /* Assets.xcassets */,
 				821989A722564ECD009BC3FD /* LaunchScreen.storyboard */,
 				821989AA22564ECD009BC3FD /* Info.plist */,
+				8261D14E229C15770004C470 /* LoginController.swift */,
 			);
 			path = AppRestaurante;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821989A122564ECB009BC3FD /* ViewController.swift in Sources */,
+				8261D14F229C15770004C470 /* LoginController.swift in Sources */,
 				8219899F22564ECB009BC3FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppRestaurante/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppRestaurante/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

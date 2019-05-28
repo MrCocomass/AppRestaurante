@@ -1,9 +1,10 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-
-target 'AppRestaurante' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+target 'AppRestaurant' do
   use_frameworks!
+  
+  pod 'Alamofire'
+  end
 
-  # Pods for AppRestaurante
-end
+target 'yourProjectNameTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end

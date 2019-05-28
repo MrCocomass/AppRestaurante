@@ -50,11 +50,11 @@
 		4D0A44A3255F60F0D34D9BA87A0C486B /* Pods-AppRestaurante.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestaurante.release.xcconfig"; sourceTree = "<group>"; };
 		5DEB8D233D9AA20354D0751E3D4873A1 /* Pods-AppRestauranteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestauranteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5DF1B17F00151902BB78BF80D15A7CD2 /* Pods-AppRestaurante-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestaurante-acknowledgements.plist"; sourceTree = "<group>"; };
-		5EF0DBA2234B2EC6C241891DBAC7EB80 /* Pods_AppRestauranteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppRestauranteUITests.framework; path = "Pods-AppRestauranteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF0DBA2234B2EC6C241891DBAC7EB80 /* Pods_AppRestauranteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRestauranteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BAD3246D0977A540AB39D710653D707 /* Pods-AppRestauranteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestauranteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7975B8A4FE69BE15BDF672CB2718B2FE /* Pods-AppRestauranteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestauranteTests.release.xcconfig"; sourceTree = "<group>"; };
 		829D2427316EE26A89C3AF2E18C25E0F /* Pods-AppRestauranteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppRestauranteTests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B7E1BA9C7948C0A8E3155C2206D57754 /* Pods-AppRestauranteUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestauranteUITests-Info.plist"; sourceTree = "<group>"; };
 		B9668DC7A59E69EE9B4A7C7C36FDEEF1 /* Pods-AppRestauranteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppRestauranteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BF84AE663C99A5B4A6177D0A47FCF02B /* Pods-AppRestauranteTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestauranteTests-Info.plist"; sourceTree = "<group>"; };
@@ -62,9 +62,9 @@
 		C1310143061FD1C2632E3D94BAA8C365 /* Pods-AppRestaurante.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppRestaurante.modulemap"; sourceTree = "<group>"; };
 		C8B77660EAAA9AEA081CF2E98566F707 /* Pods-AppRestaurante-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppRestaurante-dummy.m"; sourceTree = "<group>"; };
 		CD9D0E1F8D108B9EC7267D278F6735F1 /* Pods-AppRestauranteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRestauranteUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D48D1020701086B668CACB27D2C8578F /* Pods_AppRestaurante.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppRestaurante.framework; path = "Pods-AppRestaurante.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48D1020701086B668CACB27D2C8578F /* Pods_AppRestaurante.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRestaurante.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A81DAFD9FB608BB46AA75F76106894 /* Pods-AppRestauranteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRestauranteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED54894C34DD3885C063D7D2A06E33E2 /* Pods_AppRestauranteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppRestauranteTests.framework; path = "Pods-AppRestauranteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED54894C34DD3885C063D7D2A06E33E2 /* Pods_AppRestauranteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRestauranteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -574,7 +574,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Alamofire;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -715,7 +715,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Alamofire;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
