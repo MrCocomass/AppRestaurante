@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppRestaurante/RegisterController.swift"
+            timestampString = "580764907.907348"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "RegisterController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRestaurante.RegisterController.textFieldNameRegister.getter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "AppRestaurante"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielmiranda/Desktop/AppRestaurante/AppRestaurante/RegisterController.swift"
+                  timestampString = "580764681.3858269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRestaurante.RegisterController.textFieldNameRegister.setter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "AppRestaurante"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielmiranda/Desktop/AppRestaurante/AppRestaurante/RegisterController.swift"
+                  timestampString = "580764681.3908499"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRestaurante.RegisterController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AppRestaurante.RegisterController"
+                  moduleName = "AppRestaurante"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielmiranda/Desktop/AppRestaurante/AppRestaurante/RegisterController.swift"
+                  timestampString = "580764681.392893"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRestaurante.RegisterController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AppRestaurante.RegisterController&gt;"
+                  moduleName = "AppRestaurante"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielmiranda/Desktop/AppRestaurante/AppRestaurante/RegisterController.swift"
+                  timestampString = "580764681.394946"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,10 +1,22 @@
-target 'AppRestaurant' do
-  use_frameworks!
-  
-  pod 'Alamofire'
-  end
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
-target 'yourProjectNameTests' do
+target 'AppRestaurante' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AppRestaurante
+
+  pod 'Alamofire', '~> 4.3'
+
+  target 'AppRestauranteTests' do
     inherit! :search_paths
     # Pods for testing
   end
+
+  target 'AppRestauranteUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
