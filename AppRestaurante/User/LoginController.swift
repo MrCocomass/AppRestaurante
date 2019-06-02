@@ -17,6 +17,7 @@ class LoginController: UIViewController {
     
     @IBAction func btnLogin(_ sender: Any) {
         login()
+        self.performSegue(withIdentifier: "openmain", sender: nil)
     }
     
     override func viewDidLoad() {
@@ -26,7 +27,7 @@ class LoginController: UIViewController {
     
     func login()
     {
-        let URL = "http://localhost:8888/AppRestaurant/public/index.php/api/login"
+        let URL = "http://localhost:8888/AppRest/public/index.php/api/login"
         let parameters: Parameters = ["email": textFieldEmailLogin.text!, "password": textFieldPasswordLogin.text!]
     
         Alamofire.request(URL,method: .post,parameters:parameters).responseJSON
@@ -43,10 +44,10 @@ class LoginController: UIViewController {
                         self.present(alertController, animated: true, completion: nil)
                     }
                     else{
+                        self.performSegue(withIdentifier: "openmain", sender: nil)
                         let alertController = UIAlertController(title: "logeado",message: "hey", preferredStyle: UIAlertController.Style.alert)
                         alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
                         self.present(alertController, animated: true, completion: nil)
-                        
                     }
                 }
         }

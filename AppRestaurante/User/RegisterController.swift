@@ -26,7 +26,7 @@ class RegisterController: UIViewController {
     
     func register()
     {
-        let URL = "http://localhost:8888/AppRestaurant/public/index.php/api/register"
+        let URL = "http://localhost:8888/AppRest/public/index.php/api/register"
         let parameters: Parameters = ["name": textFieldNameRegister.text!, "email": textFieldEmailRegister.text!, "password": textFieldPasswordRegister.text!]
         
         Alamofire.request(URL,method: .post,parameters:parameters).responseJSON
