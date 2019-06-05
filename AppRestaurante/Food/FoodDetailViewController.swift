@@ -19,6 +19,9 @@ class FoodDetailViewController: UIViewController {
     
     @IBAction func btnBack(_ sender: Any) {
     }
+    @IBAction func btnAddFood(_ sender: Any) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
