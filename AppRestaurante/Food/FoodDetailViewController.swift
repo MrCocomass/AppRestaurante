@@ -22,13 +22,13 @@ class FoodDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        labelFoodName.text = food[myIndex]
+
+        labelFoodName.text = foood[myIndex]
         labelFoodDesc.text = foodDetail[myIndex]
         labelFoodPrice.text = price[myIndex]
-        
-        detailImage.image = UIImage(named: food[myIndex] + ".jpg")
-        
+
+        detailImage.image = UIImage(named: foood[myIndex] + ".jpg")
+    
 //        detailImage.image = UIImage(named: takeaway-pizza-stock-photography_gg55831261)
     
     }

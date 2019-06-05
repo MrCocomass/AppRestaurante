@@ -24,8 +24,8 @@
 		828AD6C822A104B000B52B98 /* Sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 828AD6C622A104B000B52B98 /* Sandwich.jpg */; };
 		828AD6CB22A104B700B52B98 /* Hamburguesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 828AD6C922A104B700B52B98 /* Hamburguesa.jpg */; };
 		828AD6CC22A104B700B52B98 /* Papas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 828AD6CA22A104B700B52B98 /* Papas.jpg */; };
+		82B30EEC22A539EB005D98F3 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B30EEB22A539EB005D98F3 /* FoodViewController.swift */; };
 		82BF3D8C22A051AA00A5800F /* FoodRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF3D8B22A051AA00A5800F /* FoodRequest.swift */; };
-		82BF3D8E22A0547500A5800F /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF3D8D22A0547500A5800F /* FoodViewController.swift */; };
 		84E0BF8B53CF14DF4370293E /* Pods_AppRestaurante.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FBC5FD5A28D6BEDA687766 /* Pods_AppRestaurante.framework */; };
 		FCFA9093C48802FD751F94C5 /* Pods_AppRestauranteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6903D4BE621203C97F1A9DCE /* Pods_AppRestauranteUITests.framework */; };
 /* End PBXBuildFile section */
@@ -73,8 +73,8 @@
 		828AD6C622A104B000B52B98 /* Sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sandwich.jpg; path = ../../Sandwich.jpg; sourceTree = "<group>"; };
 		828AD6C922A104B700B52B98 /* Hamburguesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hamburguesa.jpg; path = ../../Hamburguesa.jpg; sourceTree = "<group>"; };
 		828AD6CA22A104B700B52B98 /* Papas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Papas.jpg; path = ../../Papas.jpg; sourceTree = "<group>"; };
+		82B30EEB22A539EB005D98F3 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		82BF3D8B22A051AA00A5800F /* FoodRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRequest.swift; sourceTree = "<group>"; };
-		82BF3D8D22A0547500A5800F /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		842BEF20670BDEB9ABCC7A1C /* Pods-AppRestaurante.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRestaurante.release.xcconfig"; path = "Target Support Files/Pods-AppRestaurante/Pods-AppRestaurante.release.xcconfig"; sourceTree = "<group>"; };
 		8A5A08CECE8BC6F0C8D95468 /* Pods_AppRestauranteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRestauranteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58D0B2114521D9490DD9E80 /* Pods-AppRestauranteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRestauranteTests.debug.xcconfig"; path = "Target Support Files/Pods-AppRestauranteTests/Pods-AppRestauranteTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,9 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				82BF3D8B22A051AA00A5800F /* FoodRequest.swift */,
-				82BF3D8D22A0547500A5800F /* FoodViewController.swift */,
 				828AD6B522A0DFD800B52B98 /* FoodDetailViewController.swift */,
 				828AD6B922A0FA6600B52B98 /* FoodTableViewController.swift */,
+				82B30EEB22A539EB005D98F3 /* FoodViewController.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -428,11 +428,11 @@
 				828AD6BA22A0FA6600B52B98 /* FoodTableViewController.swift in Sources */,
 				828AD6AE22A0DE4900B52B98 /* ProfileController.swift in Sources */,
 				828AD6AC22A0DE3F00B52B98 /* LoginController.swift in Sources */,
+				82B30EEC22A539EB005D98F3 /* FoodViewController.swift in Sources */,
 				821989A122564ECB009BC3FD /* ViewController.swift in Sources */,
 				828AD6B622A0DFD800B52B98 /* FoodDetailViewController.swift in Sources */,
 				828AD6B022A0DE5100B52B98 /* RecoverController.swift in Sources */,
 				82BF3D8C22A051AA00A5800F /* FoodRequest.swift in Sources */,
-				82BF3D8E22A0547500A5800F /* FoodViewController.swift in Sources */,
 				828AD6B422A0DFA400B52B98 /* FoodTableViewCell.swift in Sources */,
 				8219899F22564ECB009BC3FD /* AppDelegate.swift in Sources */,
 				828AD6B222A0DE5600B52B98 /* RegisterController.swift in Sources */,

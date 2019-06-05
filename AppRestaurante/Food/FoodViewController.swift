@@ -1,38 +1,36 @@
-//import UIKit
-//import Alamofire
 //
-//class FoodViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+//  FoodViewController.swift
+//  AppRestaurante
 //
-//    var foods = ["Hamburgesa", "Pizza", "Papas", "Sanwich"]
-//    var foodDetail = ["Hamburguesa con carne de vacuno con queso, tomate, lechuga, cebolla, ketchup y mostaza", "Pizza con queso de cabra, datiles, platano y jamon", "Ración para una persona de papas", "Sandwich con lechuga, tomate, huevo, mayonesa y atun"]
+//  Created by Daniel Miranda on 03/06/2019.
+//  Copyright © 2019 Daniel Miranda. All rights reserved.
 //
-//    var myIndex = 0
-//
-//
-//    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-//    {
-//        return (foods.count)
-//    }
-//
-//    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
-//    {
-//        let cell = UITableViewCell (style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
-//        cell.textLabel?.text = foods[indexPath.row]
-//
-//        return(cell)
-//    }
-//
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
-//    {
-//        myIndex = indexPath.row
-//        performSegue(withIdentifier: "segue", sender: self)
-//    }
-//
-//        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//            let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! EventTableViewCell
-//
-//            cell.titleLbl.text = events[indexPath.row]["title"] as? String
-//            cell.descriptionLbl.text = events[indexPath.row]["description"] as? String
+
+import UIKit
+import Alamofire
+
+//struct Food {
+//    let _id: Int
+//    let name: String
+//    let description: String
+//    let quote: String
 //
 //}
 
+class FoodViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let jsonUrlString = "https://tonterias.herokuapp.com/api/tonterias"
+        guard let url = URL(string: jsonUrlString) else {return}
+        
+        URLSession.shared.dataTask(with: url) { (data, response, err) in
+            print("haciendo fleje cosas aqui")
+        }.resume()
+
+//        let myFood = Food(id: 1, name: "food name", description: "description")
+//        print(myFood)
+
+    }
+}
