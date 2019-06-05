@@ -34,7 +34,7 @@ var myIndex = 0
 
 class FoodTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    class Usuario : Decodable {
+    class Comida : Decodable {
 //        var user: String = ""
 //        var pass: Int = 0
         var name: String = ""
@@ -53,7 +53,7 @@ class FoodTableViewController: UIViewController, UITableViewDelegate, UITableVie
         URLSession.shared.dataTask(with: url!) { (data, response, error) in
             if error == nil {
                 do {
-                    let getfood = try JSONDecoder().decode([Usuario].self, from: data!)
+                    let getfood = try JSONDecoder().decode([Comida].self, from: data!)
                     for u in getfood {
 //                        print(u.user, u.pass)
                         print(u.name, u.price, u.description)

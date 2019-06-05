@@ -17,7 +17,7 @@ class LoginController: UIViewController {
     
     @IBAction func btnLogin(_ sender: Any) {
         login()
-        self.performSegue(withIdentifier: "openmain", sender: nil)
+        //self.performSegue(withIdentifier: "openmain", sender: nil)
     }
     
     override func viewDidLoad() {
