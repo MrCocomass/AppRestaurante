@@ -18,14 +18,15 @@ class FoodDetailViewController: UIViewController {
     @IBOutlet weak var labelFoodDesc: UILabel!
     
     @IBAction func btnBack(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     @IBAction func btnAddFood(_ sender: Any) {
-        
+        dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//Cambiar foood por getfood
         labelFoodName.text = foood[myIndex]
         labelFoodDesc.text = foodDetail[myIndex]
         labelFoodPrice.text = price[myIndex]

@@ -13,6 +13,7 @@
 		821989A422564ECB009BC3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821989A222564ECB009BC3FD /* Main.storyboard */; };
 		821989A622564ECD009BC3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821989A522564ECD009BC3FD /* Assets.xcassets */; };
 		821989A922564ECD009BC3FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821989A722564ECD009BC3FD /* LaunchScreen.storyboard */; };
+		8231D31022A89E5D00A1DD8A /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231D30F22A89E5D00A1DD8A /* OrderViewController.swift */; };
 		828AD6AC22A0DE3F00B52B98 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AD6AB22A0DE3F00B52B98 /* LoginController.swift */; };
 		828AD6AE22A0DE4900B52B98 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AD6AD22A0DE4900B52B98 /* ProfileController.swift */; };
 		828AD6B022A0DE5100B52B98 /* RecoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AD6AF22A0DE5100B52B98 /* RecoverController.swift */; };
@@ -62,6 +63,7 @@
 		821989AA22564ECD009BC3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		821989AF22564ECD009BC3FD /* AppRestauranteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppRestauranteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		821989BA22564ECE009BC3FD /* AppRestauranteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppRestauranteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8231D30F22A89E5D00A1DD8A /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		828AD6AB22A0DE3F00B52B98 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = AppRestaurante/User/LoginController.swift; sourceTree = "<group>"; };
 		828AD6AD22A0DE4900B52B98 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = AppRestaurante/User/ProfileController.swift; sourceTree = "<group>"; };
 		828AD6AF22A0DE5100B52B98 /* RecoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecoverController.swift; path = AppRestaurante/User/RecoverController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				8219899E22564ECB009BC3FD /* AppDelegate.swift */,
 				821989A022564ECB009BC3FD /* ViewController.swift */,
 				828AD6B322A0DFA400B52B98 /* FoodTableViewCell.swift */,
+				8231D30E22A89E1500A1DD8A /* Order */,
 				8252AB7122A0DD8D00DC26FA /* User */,
 				82BF3D8F22A0DB9A00A5800F /* Food */,
 				821989A222564ECB009BC3FD /* Main.storyboard */,
@@ -157,6 +160,14 @@
 				828AD6CA22A104B700B52B98 /* Papas.jpg */,
 			);
 			path = AppRestaurante;
+			sourceTree = "<group>";
+		};
+		8231D30E22A89E1500A1DD8A /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				8231D30F22A89E5D00A1DD8A /* OrderViewController.swift */,
+			);
+			path = Order;
 			sourceTree = "<group>";
 		};
 		8252AB7122A0DD8D00DC26FA /* User */ = {
@@ -436,6 +447,7 @@
 				828AD6B422A0DFA400B52B98 /* FoodTableViewCell.swift in Sources */,
 				8219899F22564ECB009BC3FD /* AppDelegate.swift in Sources */,
 				828AD6B222A0DE5600B52B98 /* RegisterController.swift in Sources */,
+				8231D31022A89E5D00A1DD8A /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,6 +5,8 @@ var foood = ["Hamburguesa", "Pizza", "Papas", "Sandwich"]
 var foodDetail = ["Hamburguesa con carne de vacuno con queso, tomate, lechuga, cebolla, ketchup y mostaza", "Pizza con queso de cabra, datiles, platano y jamon", "Ración para una persona de papas", "Sandwich con lechuga, tomate, huevo, mayonesa y atun"]
 var price = ["3,50€", "7,75€", "2,50€", "4,25€"]
 
+
+
 var myIndex = 0
 
 //struct Food: Decodable {
@@ -34,6 +36,10 @@ var myIndex = 0
 
 class FoodTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    var getfood = [Comida]()
+    
+    @IBOutlet weak var tableviewfood: UITableView!
+    
     class Comida : Decodable {
 //        var user: String = ""
 //        var pass: Int = 0
@@ -41,7 +47,7 @@ class FoodTableViewController: UIViewController, UITableViewDelegate, UITableVie
         var price: String = ""
         var description: String = ""
     }
-//
+
     override func viewDidLoad() {
         super.viewDidLoad()
         listaUsuarios()
@@ -53,11 +59,12 @@ class FoodTableViewController: UIViewController, UITableViewDelegate, UITableVie
         URLSession.shared.dataTask(with: url!) { (data, response, error) in
             if error == nil {
                 do {
-                    let getfood = try JSONDecoder().decode([Comida].self, from: data!)
-                    for u in getfood {
+                    self.getfood = try JSONDecoder().decode([Comida].self, from: data!)
+                    for u in self.getfood {
 //                        print(u.user, u.pass)
                         print(u.name, u.price, u.description)
                     }
+                 self.tableviewfood.reloadData()
                 } catch let error {
                     print(error)
                 }
@@ -111,13 +118,13 @@ class FoodTableViewController: UIViewController, UITableViewDelegate, UITableVie
 
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return (foood.count)
+        return (getfood.count)
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = UITableViewCell (style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = foood[indexPath.row]
+        cell.textLabel?.text = getfood[indexPath.row].name
 
         return(cell)
     }

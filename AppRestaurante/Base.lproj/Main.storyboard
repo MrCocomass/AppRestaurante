@@ -322,6 +322,7 @@
                         <color key="badgeColor" red="1" green="0.16194416850000001" blue="0.20676649699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <connections>
+                        <outlet property="tableviewfood" destination="QhH-3q-3EA" id="TKJ-Dd-CQ4"/>
                         <segue destination="0r5-J1-30t" kind="show" identifier="segue" id="wxb-Wy-5BO"/>
                     </connections>
                 </viewController>
@@ -348,7 +349,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UIh-na-YaE" kind="show" id="CDf-4t-qld"/>
+                                    <action selector="btnBack:" destination="0r5-J1-30t" eventType="touchUpInside" id="7NQ-wS-Wa3"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="hhb-2L-hwm">
@@ -423,10 +424,10 @@
             </objects>
             <point key="canvasLocation" x="3464.8000000000002" y="-924.28785607196414"/>
         </scene>
-        <!--View Controller-->
+        <!--Order View Controller-->
         <scene sceneID="pee-u6-RzC">
             <objects>
-                <viewController id="O5O-bU-dEa" sceneMemberID="viewController">
+                <viewController id="O5O-bU-dEa" customClass="OrderViewController" customModule="AppRestaurante" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u1P-8c-IYY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -499,7 +500,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="back"/>
                                 <connections>
-                                    <segue destination="UIh-na-YaE" kind="show" id="S1i-YL-0wC"/>
+                                    <action selector="btnback:" destination="O5O-bU-dEa" eventType="touchUpInside" id="PuH-KA-pkC"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 €" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCi-VR-kqz">
@@ -710,7 +711,4 @@
         <image name="note" width="24" height="24"/>
         <image name="online-shopping-cart" width="24" height="24"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="bzB-PZ-cNW"/>
-    </inferredMetricsTieBreakers>
 </document>

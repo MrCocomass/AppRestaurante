@@ -10,6 +10,9 @@ import UIKit
 import Alamofire
 import Foundation
 
+
+
+
 class RegisterController: UIViewController {
     
     @IBOutlet weak var textFieldNameRegister: UITextField!
@@ -18,6 +21,7 @@ class RegisterController: UIViewController {
     
     @IBAction func btnRregister_act(_ sender: Any) {
         register()
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
