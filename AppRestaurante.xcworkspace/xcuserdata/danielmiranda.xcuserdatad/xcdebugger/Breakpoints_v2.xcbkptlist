@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppRestaurante/User/RegisterController.swift"
-            timestampString = "581476932.223598"
+            timestampString = "581479136.479154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "register()"
             landmarkType = "7">
          </BreakpointContent>

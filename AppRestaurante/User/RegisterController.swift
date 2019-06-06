@@ -21,7 +21,7 @@ class RegisterController: UIViewController {
     
     @IBAction func btnRregister_act(_ sender: Any) {
         register()
-        self.dismiss(animated: true, completion: nil)
+        back()
     }
     
     override func viewDidLoad() {
@@ -50,9 +50,20 @@ class RegisterController: UIViewController {
                         let alertController = UIAlertController(title: "registrado",message: "hey", preferredStyle: UIAlertController.Style.alert)
                         alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
                         self.present(alertController, animated: true, completion: nil)
+                        
                     }
+                    
                 }
+                    
+            }
         }
+    
+    func back(){
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     }
 
-}
+
+
+
