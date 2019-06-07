@@ -128,7 +128,7 @@
                     <connections>
                         <outlet property="textFieldEmailLogin" destination="VoA-Ql-ZSJ" id="Mk8-qQ-AJ8"/>
                         <outlet property="textFieldPasswordLogin" destination="97h-Az-0ae" id="Sob-PD-8zn"/>
-                        <segue destination="UIh-na-YaE" kind="show" identifier="openmain" id="bzB-PZ-cNW"/>
+                        <segue destination="UIh-na-YaE" kind="show" identifier="openmain" id="53L-tu-VF6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="szu-l8-GQ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -642,6 +642,20 @@
                                     </textField>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IdV-uJ-mJt">
+                                <rect key="frame" x="19" y="20" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.16194416850000001" blue="0.20676649699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Rbo-oO-JCL"/>
+                                    <constraint firstAttribute="width" constant="50" id="v6H-DN-MDF"/>
+                                </constraints>
+                                <state key="normal" title="BACK">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnBack:" destination="HXs-rJ-yuJ" eventType="touchUpInside" id="2zY-EP-gqe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1225600466132164" green="0.12984576821327209" blue="0.13997954130172729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -652,6 +666,8 @@
                             <constraint firstItem="kvw-if-e7F" firstAttribute="leading" secondItem="5fo-U9-XsQ" secondAttribute="leading" constant="112" id="K4P-Mp-CgT"/>
                             <constraint firstItem="5fo-U9-XsQ" firstAttribute="trailing" secondItem="rxx-rb-5wC" secondAttribute="trailing" constant="113" id="SxE-wj-aXL"/>
                             <constraint firstItem="kvw-if-e7F" firstAttribute="leading" secondItem="5fo-U9-XsQ" secondAttribute="leading" constant="112" id="bo2-p8-efz"/>
+                            <constraint firstItem="IdV-uJ-mJt" firstAttribute="leading" secondItem="5fo-U9-XsQ" secondAttribute="leading" constant="19" id="h0n-ep-0iI"/>
+                            <constraint firstItem="IdV-uJ-mJt" firstAttribute="top" secondItem="5fo-U9-XsQ" secondAttribute="top" id="q86-LX-Wbz"/>
                             <constraint firstItem="kdr-Eh-WZ7" firstAttribute="top" secondItem="rxx-rb-5wC" secondAttribute="bottom" constant="80" id="sdb-vc-SLA"/>
                             <constraint firstItem="5fo-U9-XsQ" firstAttribute="trailing" secondItem="kdr-Eh-WZ7" secondAttribute="trailing" constant="75" id="sqH-ef-tLZ"/>
                             <constraint firstItem="kdr-Eh-WZ7" firstAttribute="leading" secondItem="5fo-U9-XsQ" secondAttribute="leading" constant="75" id="wOH-qX-YCf"/>
@@ -720,11 +736,26 @@
                                 <color key="textColor" red="1" green="0.16194416850000001" blue="0.20676649699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ts4-nm-236">
+                                <rect key="frame" x="19" y="20" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.16194416850000001" blue="0.20676649699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="KXz-Mz-Hns"/>
+                                    <constraint firstAttribute="height" constant="50" id="twp-I1-4l6"/>
+                                </constraints>
+                                <state key="normal" title="BACK">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnBack:" destination="TGp-il-tgt" eventType="touchUpInside" id="6E0-Dz-82v"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1225600466132164" green="0.12984576821327209" blue="0.13997954130172729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hmk-oO-544" firstAttribute="leading" secondItem="AmX-pk-QGl" secondAttribute="leading" constant="75" id="0JQ-Jz-nK6"/>
                             <constraint firstItem="nri-WU-P6a" firstAttribute="top" secondItem="hmk-oO-544" secondAttribute="bottom" constant="60" id="4YN-4U-sJQ"/>
+                            <constraint firstItem="ts4-nm-236" firstAttribute="top" secondItem="AmX-pk-QGl" secondAttribute="top" id="BGV-DM-Nqm"/>
                             <constraint firstItem="AmX-pk-QGl" firstAttribute="trailing" secondItem="hmk-oO-544" secondAttribute="trailing" constant="75" id="Ikd-uT-JET"/>
                             <constraint firstItem="9sM-Hf-dHs" firstAttribute="top" secondItem="AmX-pk-QGl" secondAttribute="top" constant="85" id="MND-9r-35T"/>
                             <constraint firstItem="AmX-pk-QGl" firstAttribute="trailing" secondItem="nri-WU-P6a" secondAttribute="trailing" constant="146" id="UNc-yH-yWl"/>
@@ -732,6 +763,7 @@
                             <constraint firstItem="nri-WU-P6a" firstAttribute="leading" secondItem="AmX-pk-QGl" secondAttribute="leading" constant="146" id="efs-F5-NZs"/>
                             <constraint firstItem="9sM-Hf-dHs" firstAttribute="leading" secondItem="AmX-pk-QGl" secondAttribute="leading" constant="113" id="nZg-R6-CSN"/>
                             <constraint firstItem="hmk-oO-544" firstAttribute="top" secondItem="9sM-Hf-dHs" secondAttribute="bottom" constant="79" id="oZq-uS-Ebm"/>
+                            <constraint firstItem="ts4-nm-236" firstAttribute="leading" secondItem="AmX-pk-QGl" secondAttribute="leading" constant="19" id="p89-5e-byh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AmX-pk-QGl"/>
                     </view>

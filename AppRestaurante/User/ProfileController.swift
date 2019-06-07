@@ -28,7 +28,7 @@ class ProfileController: UIViewController {
     
     public func update()
     {
-//        print("hola")
+//      print("hola")
         let URL = "http://localhost:8888/AppRest/public/index.php/api/updateUser"
         let parameters: Parameters = ["email": emailupdate.text!, "password": emailupdate.text!, "name": nameupdate.text!]
 

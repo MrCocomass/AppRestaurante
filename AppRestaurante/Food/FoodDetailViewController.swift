@@ -26,7 +26,7 @@ class FoodDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//Cambiar foood por getfood
+//poner getfood
         labelFoodName.text = foood[myIndex]
         labelFoodDesc.text = foodDetail[myIndex]
         labelFoodPrice.text = price[myIndex]

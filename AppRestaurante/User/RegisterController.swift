@@ -21,6 +21,10 @@ class RegisterController: UIViewController {
     
     @IBAction func btnRregister_act(_ sender: Any) {
         register()
+        
+    }
+    
+    @IBAction func btnBack(_ sender: Any) {
         back()
     }
     
@@ -52,9 +56,7 @@ class RegisterController: UIViewController {
                         self.present(alertController, animated: true, completion: nil)
                         
                     }
-                    
                 }
-                    
             }
         }
     

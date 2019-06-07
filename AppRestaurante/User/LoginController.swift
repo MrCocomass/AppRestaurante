@@ -10,6 +10,8 @@ import UIKit
 import Alamofire
 import Foundation
 
+var token:String?
+
 class LoginController: UIViewController {
     
     @IBOutlet weak var textFieldEmailLogin: UITextField!
@@ -48,10 +50,15 @@ class LoginController: UIViewController {
                         let alertController = UIAlertController(title: "logeado",message: "hey", preferredStyle: UIAlertController.Style.alert)
                         alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
                         self.present(alertController, animated: true, completion: nil)
+                        
                     }
+                    
+                    
                 }
+
+            }
+        
         }
 
     }
-    
-}
+

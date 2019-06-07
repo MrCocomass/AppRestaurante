@@ -5,8 +5,6 @@ var foood = ["Hamburguesa", "Pizza", "Papas", "Sandwich"]
 var foodDetail = ["Hamburguesa con carne de vacuno con queso, tomate, lechuga, cebolla, ketchup y mostaza", "Pizza con queso de cabra, datiles, platano y jamon", "Ración para una persona de papas", "Sandwich con lechuga, tomate, huevo, mayonesa y atun"]
 var price = ["3,50€", "7,75€", "2,50€", "4,25€"]
 
-
-
 var myIndex = 0
 
 //struct Food: Decodable {

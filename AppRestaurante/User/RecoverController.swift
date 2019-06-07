@@ -15,6 +15,10 @@ class RecoverController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func btnBack(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+
+    }
     
 
     /*
